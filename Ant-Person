@@ -831,7 +831,7 @@ local humanoid = character:WaitForChild("Humanoid")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 -- Messages to send
-local messages = {"MESSAGE x1", "MESSAGE x2", "MESSAGE x3", "MESSAGE x4"}
+local messages = {"これは...", "あなたの終わり"}
 
 local function sendMessage(text)
     ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text, "All")
@@ -843,39 +843,6 @@ for _, message in ipairs(messages) do
 end
 
 --[[END OF QUOTES]]
-
---[[Idle Animation]]
-
-local animationId = "rbxassetid://15099756132" -- Replace with your animation ID
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoid = character:WaitForChild("Humanoid")
-local animator = humanoid:FindFirstChildOfClass("Animator") or humanoid:WaitForChild("Animator")
-
-local animation = Instance.new("Animation")
-animation.AnimationId = animationId
-local animationTrack = animator:LoadAnimation(animation)
-
-local function isMoving()
-    local velocity = humanoid.MoveDirection.Magnitude
-    return velocity > 0
-end
-
-while true do
-    if not isMoving() then
-        if not animationTrack.IsPlaying then
-            animationTrack:Play()
-        end
-    else
-        if animationTrack.IsPlaying then
-            animationTrack:Stop()
-        end
-    end
-    wait(0.1)
-end
-
-
---[[END OF IDLE ANIM]]
 
 --[[Run Anim]]
 
