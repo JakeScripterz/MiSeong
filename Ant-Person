@@ -645,15 +645,15 @@ local humanoid = character:WaitForChild("Humanoid")
 
 local animationIdsToStop = {
 
-    [17859015788] = true, --downslam finisher
+    [10470104242] = true, --downslam finisher
 
-    [17889458563] = true, --punch1
+    [10469493270] = true, --punch1
 
-    [17889461810] = true, --punch2
+    [10469630950] = true, --punch2
 
-    [13532562418] = true, --punch3
+    [10469639222] = true, --punch3
 
-    [13294471966] = true, --punch4
+    [10469643643] = true, --punch4
 
 }
 
@@ -664,11 +664,11 @@ local replacementAnimations = {
 
     ["10469630950"] = "rbxassetid://17889461810", --punch2
 
-    ["10469639222"] = "rbxassetid://17889471098", --punch3
+    ["10469639222"] = "rbxassetid://13532562418", --punch3
 
-    ["10469643643"] = "rbxassetid://17889290569", --punch4
+    ["10469643643"] = "rbxassetid://13294471966", --punch4
 
-    ["17859015788"] = "rbxassetid://12684185971", --downslam finisher
+    ["17859015788"] = "rbxassetid://17859015788", --downslam finisher
 
     ["11365563255"] = "rbxassetid://14516273501" --punch idk
 
@@ -922,3 +922,9 @@ Anim.TimePosition = startTime
 Anim:AdjustSpeed(1)
 
 --[[END OF EXECUTE ANIMS]]
+
+--[[Ult Bar Color]]
+
+
+
+game.Players.LocalPlayer.PlayerGui.ScreenGui.MagicHealth.Health.Bar.Bar.ImageColor3 = Color3.fromRGB(128, 128, 128) -- red
