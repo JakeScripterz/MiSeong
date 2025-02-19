@@ -141,7 +141,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://13073745835"
+AnimAnim.AnimationId = "rbxassetid://114095570398448"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -432,7 +432,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://113876851900426"
+AnimAnim.AnimationId = "rbxassetid://18716153127"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -910,7 +910,7 @@ for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
 end
 
 local AnimAnim = Instance.new("Animation")
-AnimAnim.AnimationId = "rbxassetid://95000469063288" -- Replace with your animation ID
+AnimAnim.AnimationId = "rbxassetid://18435303746" -- Replace with your animation ID
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
