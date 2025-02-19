@@ -141,7 +141,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://114095570398448"
+AnimAnim.AnimationId = "rbxassetid://116153572280464"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -851,7 +851,7 @@ local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 local animator = humanoid:WaitForChild("Animator")
 
-local animationId = "rbxassetid://18445236460" -- Replace with your animation ID
+local animationId = "rbxassetid://18508551562" -- Replace with your animation ID
 local animation = Instance.new("Animation")
 animation.AnimationId = animationId
 
