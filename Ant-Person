@@ -199,7 +199,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16945550029"
+AnimAnim.AnimationId = "rbxassetid://18181589384"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
