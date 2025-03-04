@@ -69,7 +69,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Sacred Push"
+ToolName.Text = "Celestial Lift"
 
 
 local Players = game:GetService("Players")
@@ -376,7 +376,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18181589384"
+AnimAnim.AnimationId = "rbxassetid://113166426814229"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -486,7 +486,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18716698376"
+AnimAnim.AnimationId = "rbxassetid://17838006839"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
