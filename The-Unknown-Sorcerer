@@ -15,7 +15,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Cataclysmic Impact Punch"
+ToolName.Text = "Speed Blitz"
 
 
 local player = game.Players.LocalPlayer
@@ -155,7 +155,7 @@ Anim:AdjustSpeed(0.1)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(0.9)
+Anim:AdjustSpeed(2)
 
 
     end
@@ -213,7 +213,7 @@ Anim:AdjustSpeed(1)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(2)
 
 
     end
